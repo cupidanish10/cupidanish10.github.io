@@ -1,0 +1,155 @@
+extends ../layout
+
+block content
+	section.back.pt15
+		.container
+			.row
+				.col-sm-12
+					a.continue-shopping(href='#')
+						i.fa.fa-arrow-left(aria-hidden='true')
+						| Continue Shopping
+	section.main.about-maya
+		.container
+			.row
+				.col-sm-12
+					.about-flex
+						.maya-explain
+							h4  About Delivary and Charges 
+							p
+								| Our vision in starting Maya was to offer products that met our goals of being an escape from
+								| the era of race against time to the world of love, calm and happiness. Maya, meaning Love in nepali language, aims to spread the warmth of love to all.
+	section.main.checkout-details
+		.container
+			.row
+				.col-sm-8
+					.checkout
+						.checkout-header
+							h4
+								| Your Cart 
+								span.cart-total  (2) 
+						.checkout-body.clearfix
+							.checkout-list
+								.checkout-image.pull-left
+									a.img-container(href='#')
+										img.img-responsive(src='/resources/images/product2.jpg', alt='checkout')
+								.checkout-content
+									.checkout-price.pull-right
+										span.product-price-lg.red-text  Rs.800 
+									.checkout-elements
+										span.item-title
+											| Big Earring
+										span.item-size
+											| Size:
+											span  S 
+										span.item-color
+											| Color: 
+											span  Red and White 
+										span.item-quantity
+											| Quantity:
+											span  1 
+									.checkout-control.pull-right
+										a.btn.btn-flat-default(href='#')  Remove 
+							.checkout-list
+								.checkout-image.pull-left
+									a.img-container(href='#')
+										img.img-responsive(src='/resources/images/product2.jpg', alt='checkout')
+								.checkout-content
+									.checkout-price.pull-right
+										span.product-price-lg.red-text  Rs.400 
+									.checkout-elements
+										span.item-title
+											| Dramcatcher
+										span.item-size
+											| Size:
+											span  M 
+										span.item-color
+											| Color: 
+											span  Full Black 
+										span.item-quantity
+											| Quantity:
+											span  1 
+									.checkout-control.pull-right
+										a.btn.btn-flat-default(href='#')  Remove 
+				.col-sm-4
+					.card
+						.card-head
+							h4.summary-title  Summary 
+						.card-body.summary-body
+							ul.list-unstyled
+								li
+									span.pull-right  Rs.1200 
+									span  SubTotal
+								li
+									span.pull-right  Rs.00 
+									span  Delivery 
+							.totals
+								span.pull-right  Rs.1200 
+								span  Total 
+						.card-footer
+							.checkout-button
+								a.btn.btn-fancy-reverse.btn-block(href='#')  Checkout 
+	section.main.product-card-list
+		.container
+			.row
+				.col-sm-12
+					h3.sub-heading  You may Love 
+			.row
+				.col-sm-3.col-xs-6
+					.card.product-card.may-like
+						.grid-product
+							figure
+								a.img-container(href='#')
+									img.img-responsive(src='/resources/images/product2.jpg', alt='product image')
+							.hidden-info
+								.more-details
+									a(href='#')
+										| Quick Look 
+										i.fas.fa-arrow-right
+						.card-footer.text-center
+							h5.product-name  Stylish HandBag 
+							p.product-price  $80.0 
+				.col-sm-3.col-xs-6
+					.card.product-card.may-like
+						.grid-product
+							figure
+								a.img-container(href='#')
+									img.img-responsive(src='/resources/images/product3.jpg', alt='product image')
+							.hidden-info
+								.more-details
+									a(href='#')
+										| Quick Look 
+										i.fas.fa-arrow-right
+						.card-footer.text-center
+							h5.product-name  Stylish HandBag 
+							p.product-price  $80.0 
+				.col-sm-3.col-xs-6
+					.card.product-card.may-like
+						.grid-product
+							figure
+								a.img-container(href='#')
+									img.img-responsive(src='/resources/images/product.jpg', alt='product image')
+							.hidden-info
+								.more-details
+									a(href='#')
+										| Quick Look 
+										i.fas.fa-arrow-right
+						.card-footer.text-center
+							h5.product-name  Stylish HandBag 
+							p.product-price  $80.0 
+				.col-sm-3.col-xs-6
+					.card.product-card.may-like
+						.grid-product
+							figure
+								a.img-container(href='#')
+									img.img-responsive(src='/resources/images/product4.jpg', alt='product image')
+							.hidden-info
+								.more-details
+									a(href='#')
+										| Quick Look 
+										i.fas.fa-arrow-right
+						.card-footer.text-center
+							h5.product-name  Stylish HandBag 
+							p.product-price  $80.0 
+
+
+		
